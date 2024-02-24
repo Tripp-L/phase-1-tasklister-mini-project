@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Flatiron Task Lister</title>
   <link rel="stylesheet" href="./style.css">
+   <!-- using the keyword defer to make sure elements load before javascript -->
+   <!-- <script defer src="./src/index.js"></script> -->
+
 </head>
 <body>
   <div id="main-content">
@@ -20,7 +23,7 @@
       <ul id="tasks">
       </ul>
     </div>
-
+    <!-- putting the script below all HTML to make sure HTML loads before javascript -->
     <script src="./src/index.js"></script>
   </div>
 
